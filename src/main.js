@@ -13,9 +13,19 @@ const searchChampion = document.getElementById("searchChampion");
 
 hamburguerButton.addEventListener("click",() =>{
     const menu = document.getElementById("menu");
-    const displayMenu= document.getElementById("btn-menu").style.display="block"
+    const displayMenu= document.getElementById("btn-menu").style.display=""
     menu.classList.toggle("hamburguerButton");
 });
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
 
 //regresar a home limpiando el contenido antes mostrado
 home.addEventListener("click",() =>{
