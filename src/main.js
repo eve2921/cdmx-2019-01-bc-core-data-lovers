@@ -1,20 +1,9 @@
 /*convierte la base de datos en una variable*/
 const datalol = LOL.data;
-const datosArr = window.lol.iterarData(datalol);
 const rol = document.getElementsByClassName('rol');
 const imprimirRoles = document.getElementById("imprimirRoles")  /*trae el div imprimir roles para identificarlo e imprimir*/
-const mostrar = document.getElementById("mostrar");
-const search = document.getElementById("search");
-//const searchValue = document.getElementById("search").value
-//const arrayData = Object.values(datalol)
+const mostrar = document.getElementById("mostrar")
 
-mostrar.addEventListener("click",() =>{
-    const menu = document.getElementById("menu");
-    menu.classList.toggle("mostrar");
-});
-
-// const result = window.lol.iterarData(datalol)
-// console.log(result)
 
 const print = (datosArr) =>{
     imprimirRoles.innerHTML = "";
@@ -31,6 +20,7 @@ const selectRol = () =>{
     for(let i= 0; i<rol.length;i++){
     rol[i].addEventListener("click",() => {
       let rolId = rol[i].id;
+      const datosArr = window.lol.iterarData(datalol);
       //const printSection = document.getElementById("imprimirRoles");
       const arrayRolesFiltered = window.lol.filtroDataRoles(rolId, datosArr);
       print(arrayRolesFiltered);
@@ -38,13 +28,3 @@ const selectRol = () =>{
   }
 }
 selectRol();
-
-/*const filterRolBySearch = () => {
-  search.addEventListener("keyup", () => {
-    //let searchValue = document.getElementById("search").value;
-    //const showSearch = window.lol.filterBySearch(datosArr,searchValue);
-    //print (showSearch);
-  })
-  console.log(searchValue);
-};
-//filterRolBySearch ();*/

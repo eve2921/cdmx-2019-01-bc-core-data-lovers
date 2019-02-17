@@ -1,8 +1,7 @@
-
 *{
     margin: 0;
-}
-body,html{
+  }
+  body,html{
     margin: 0;
     padding: 0;
     position: relative;
@@ -16,19 +15,16 @@ body,html{
     background-size: cover;
     background-position: center center;
     background-attachment: block;
-}
-
-
-
-
-.button {
+  }
+  
+  /*.button {
     background-color: #efc056;
     padding: 0;
     border-radius: 8px;
-    font-size: 16px;
-}
-
-header{
+    font-size: 16px; */
+  }
+  
+  header{
     width: 100%;
     background: rgba(0, 0, 0, 0.5)
   }
@@ -48,7 +44,7 @@ header{
   
   header label:hover{
     cursor:pointer;
-    background: #efc056;
+    background: #666564;
   }
    /*AquÃ­ toma su estuctura horizontal el menu*/
   .menu ul {
@@ -67,7 +63,7 @@ header{
   }
   
   .menu li:hover{
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(182, 148, 39, 0.5);
   }
   
   .menu li a {
@@ -76,46 +72,87 @@ header{
     color: #efc056;
     text-decoration: none;
   }
-
-.contenedorRoles{
+  
+  .contenedorRoles{
     margin: 5px 5% 1em 7%;
-}
-
-.cuadro{
-    color: #3d3316; 
+  }
+  
+  .cuadro{
+    color: #efc056; 
     font-size: 55%; 
     font-weight: 25%; 
     text-align: center;
-    background: #efc056; 
+    background-color: #000000; 
     margin: 0; 
     overflow: hidden; 
-    padding: 2px; 
+    padding: 10px; 
     border-radius: 35px 0px 35px 0px; 
     -moz-border-radius: 35px 0px 35px 0px; 
     -webkit-border-radius: 35px 0px 35px 0px; 
     border: 1px solid #7a631c;
     display: inline-block;
     width: 22%;
-}
-
-.imagen{
+  }
+  
+  .imagen{
     width: 100%;
     padding-top: 20px;
     position: relative;
-}
+  }
 
+  #search{
+    background-color: #000000;
+    border-radius: 7px 7px 7px 7px; 
+    position: relative;
+    display: inline-flex;
+    border: 2px solid #efc056;
+    width: 250px;
+    height: 30px;
+    color: #fff;
+  }
+  .botonBuscar{
+    background-color: #000000;
+    border-radius: 7px 7px 7px 7px; 
+    position: relative;
+    display: inline-flex;
+    color: #fff;
+    width: 50px;
+    height: 30px;
+  }
   
   @media only screen and (max-width: 600px) {
+    .cuadro{
+        color: #efc056; 
+        font-size: 50%; 
+        font-weight: 25%; 
+        text-align: center;
+        background: #000000; 
+        margin: 0; 
+        overflow: hidden; 
+        padding: 9px; 
+        border-radius: 35px 0px 35px 0px; 
+        -moz-border-radius: 35px 0px 35px 0px; 
+        -webkit-border-radius: 35px 0px 35px 0px; 
+        border: 1px solid #7a631c;
+        display: inline-block;
+        width: 44%;
+        z-index: -100;
+    }
+    header{
+        background-color: #000000;
+    }
     header label{
       display: block;
+      background-color: #000000;
     }
   
     .menu {
       position: absolute;
-      background: #efc056;
+      background: #000000;
       width: 70%;
       margin-left:-70%;
       transition: all 0.3s;
+      z-index: 20;
     }
   
     .menu ul {
@@ -132,28 +169,13 @@ header{
        padding: 0;
        box-sizing: border-box; 
        text-align: left; 
-       z-index: 1;
-
+       z-index: 20;
+  
      }
-
+  
      #btn-menu:checked ~ .menu{
        margin: 0;
      }
-     .cuadro{
-        color: #3d3316; 
-        font-size: 50%; 
-        font-weight: 25%; 
-        text-align: center;
-        background: #efc056; 
-        margin: 0; 
-        overflow: hidden; 
-        padding: 2px; 
-        border-radius: 35px 0px 35px 0px; 
-        -moz-border-radius: 35px 0px 35px 0px; 
-        -webkit-border-radius: 35px 0px 35px 0px; 
-        border: 1px solid #7a631c;
-        display: inline-block;
-        width: 48%;
-    
-    }
-}
+  }
+  
+  
