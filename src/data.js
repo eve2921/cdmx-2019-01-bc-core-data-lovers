@@ -9,10 +9,7 @@ window.lol = {
           tag: element.tags,
           splash: element.splash,
           title: element.title,
-          difficulty: element.info.difficulty,
           id: element.id,
-          difficulty: element.info.difficulty,
-          splash: element.splash,
           blurb: element.blurb,
           attack: element.info.attack,
           defense: element.info.defense,
@@ -30,16 +27,6 @@ window.lol = {
     }
     return datosArr
   },
-<<<<<<< HEAD
- 
- filtroDataRoles: (rolId, datosArr ) =>{  
-      filtradoPorRoles = datosArr.filter(element => element.tag === rolId);
- 
-       return filtradoPorRoles
-     },
-  
- }
-=======
 
   filtroDataRoles: (rolId, datosArr) => {
     const filtradoPorRoles = datosArr.filter(element => element.tag[0] === rolId || element.tag[1] === rolId);
@@ -51,9 +38,9 @@ window.lol = {
     return concidence;
   },
 
-  filterByCharacter: (characterId, datosArr) => {
-    const characterOnclick = datosArr.filter(element => element.id === characterId);
-    return characterOnclick;
+  selectCharacter: (characterId, datosArr) => {
+    const character = datosArr.filter(element => element.id === characterId);
+    return character;
   },
 
   sortByDifficulty: (datosArr) => {
@@ -88,4 +75,3 @@ window.lol = {
 
 }
 
->>>>>>> 3df77b735453e1754651164d7a24f93ef50e35f7
