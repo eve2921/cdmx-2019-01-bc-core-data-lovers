@@ -1,4 +1,4 @@
-require('../src/data.js');
+require('../src/data/lol.js');
 
 let muestra = {
   type: "champion",
