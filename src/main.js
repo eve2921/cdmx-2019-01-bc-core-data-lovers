@@ -20,7 +20,7 @@ const difficultyAsc = document.getElementById("difficultyAsc");
 //Obtiene el id del botón descendente
 const difficultyDsc = document.getElementById("difficultyDsc");
 //Obtiene el id del div en donde se va a imprimir la tarjeta de los campeones
-const cuadro = document.getElementsByClassName("cuadro");
+const containerInfo = document.getElementsByClassName("containerInfo");
 
 //-----FUNCIONES PARA DESPLEGAR LA INFORMACIÓN DE LOS CAMPEONES
 
@@ -35,17 +35,18 @@ const print = (datosArr) => {
   imprimirRoles.innerHTML = "";
   datosArr.forEach(champ => {
     let championCard = `<section id=championCard>
-                        <div id="${champ.id}" class="cuadro">
+                        <div id="${champ.id}" class="containerInfo">
                         <img class="imagen" src="${champ.splash}"> 
-                        <div id="subtitulo"><p id="nombre">${champ.name}</p> 
-                        <h2 id="titulo"> ${champ.title}</h2></div>
+                        <div id="subtitulo">
+                        <h1 id="nombre">${champ.name}</h1> 
+                        <p id="titulo"> ${champ.title}</p></div>
                         </section>`;
     imprimirRoles.insertAdjacentHTML("beforeend", championCard);
   })
 //Iteración de la tarjeta del campeon seleccionada e impresión de éste 
-  for (let i = 0; i < cuadro.length; i++) {
-    cuadro[i].addEventListener('click', () => {
-      let characterId = cuadro[i].id;
+  for (let i = 0; i < containerInfo.length; i++) {
+    containerInfo[i].addEventListener('click', () => {
+      let characterId = containerInfo[i].id;
       const elementChampion = window.lol.selectCharacter(characterId, datosArr);
       printCharacterSheet(elementChampion);
     })
