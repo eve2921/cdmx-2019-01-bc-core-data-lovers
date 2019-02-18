@@ -1,41 +1,4 @@
 *{
-<<<<<<< HEAD
-    margin: 0;
-  }
-  body,html{
-    margin: 0;
-    padding: 0;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    font-family: adobe-garamond-pro,serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #cc9900;
-    background-image: url(http://i.imgur.com/hcYQ7nG.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-attachment: block;
-  }
-  
-  /*.button {
-    background-color: #efc056;
-    padding: 0;
-    border-radius: 8px;
-    font-size: 16px; */
-  }
-  
-  header{
-    width: 100%;
-    background: rgba(0, 0, 0, 0.5)
-  }
-  
-  #btn-menu{
-    display: none;
-  }
-  
-  /* Aqui vive el icono de menu"*/
-=======
   margin: 0;
 }
 body,html{
@@ -63,7 +26,7 @@ body,html{
 
 header{
   width: 100%;
-  background: rgba(0, 0, 0, 0.9)
+  background: rgbsa(0, 0, 0, 0.9)
 }
 
 #btn-menu{
@@ -192,16 +155,9 @@ header label:hover{
 
 
 @media only screen and (max-width: 600px) {
->>>>>>> 3df77b735453e1754651164d7a24f93ef50e35f7
   header label{
     display: block;
   }
-<<<<<<< HEAD
-  
-  header label:hover{
-    cursor:pointer;
-    background: #666564;
-=======
 
   .container-1{
     width: 300px;
@@ -210,7 +166,6 @@ header label:hover{
     top: 15px;
     white-space: nowrap;
     position: relative;
->>>>>>> 3df77b735453e1754651164d7a24f93ef50e35f7
   }
 
   .menu {
@@ -231,44 +186,6 @@ header label:hover{
    }
    
   .menu li:hover{
-<<<<<<< HEAD
-    background: rgba(182, 148, 39, 0.5);
-  }
-  
-  .menu li a {
-    display: block;
-    padding: 15px 20px;
-    color: #efc056;
-    text-decoration: none;
-  }
-  
-  .contenedorRoles{
-    margin: 5px 5% 1em 7%;
-  }
-  
-  .cuadro{
-    color: #efc056; 
-    font-size: 55%; 
-    font-weight: 25%; 
-    text-align: center;
-    background-color: #000000; 
-    margin: 0; 
-    overflow: hidden; 
-    padding: 10px; 
-    border-radius: 35px 0px 35px 0px; 
-    -moz-border-radius: 35px 0px 35px 0px; 
-    -webkit-border-radius: 35px 0px 35px 0px; 
-    border: 1px solid #7a631c;
-    display: inline-block;
-    width: 22%;
-  }
-  
-  .imagen{
-    width: 100%;
-    padding-top: 20px;
-    position: relative;
-  }
-=======
   background: rgba(212, 163, 1, 0.3);
   }
 
@@ -284,7 +201,6 @@ header label:hover{
 
    #btn-menu:checked ~ .menu{
      margin: 0;
->>>>>>> 3df77b735453e1754651164d7a24f93ef50e35f7
 
   #search{
     background-color: #000000;
@@ -306,67 +222,6 @@ header label:hover{
     height: 30px;
   }
   
-<<<<<<< HEAD
-  @media only screen and (max-width: 600px) {
-    .cuadro{
-        color: #efc056; 
-        font-size: 50%; 
-        font-weight: 25%; 
-        text-align: center;
-        background: #000000; 
-        margin: 0; 
-        overflow: hidden; 
-        padding: 9px; 
-        border-radius: 35px 0px 35px 0px; 
-        -moz-border-radius: 35px 0px 35px 0px; 
-        -webkit-border-radius: 35px 0px 35px 0px; 
-        border: 1px solid #7a631c;
-        display: inline-block;
-        width: 44%;
-        z-index: -100;
-    }
-    header{
-        background-color: #000000;
-    }
-    header label{
-      display: block;
-      background-color: #000000;
-    }
-  
-    .menu {
-      position: absolute;
-      background: #000000;
-      width: 70%;
-      margin-left:-70%;
-      transition: all 0.3s;
-      z-index: 20;
-    }
-  
-    .menu ul {
-      flex-direction : column;
-    }
-  
-    .menu li {
-      border-top: 1px solid #fff;
-     }
-     
-     #btn-menu .icon{
-       float: left; 
-       margin: 0;
-       padding: 0;
-       box-sizing: border-box; 
-       text-align: left; 
-       z-index: 20;
-  
-     }
-  
-     #btn-menu:checked ~ .menu{
-       margin: 0;
-     }
-  }
-  
-  
-=======
      
    }
     .cuadro{
@@ -387,4 +242,3 @@ header label:hover{
   
   }
 }
->>>>>>> 3df77b735453e1754651164d7a24f93ef50e35f7
