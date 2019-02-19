@@ -2,7 +2,7 @@
 ![probando](https://drive.google.com/open?id=1MJMctd8qlg84qrp4RKLLSjr8uGkSENFc)
 ![probando](cdmx-2019-01-bc-core-data-lovers/src/assets/Logo/LOLpng.png)
 ![probando](https://www.facebook.com/photo.php?fbid=1577033065775118&set=a.143203289158110&type=3&theater)
-![probando](https://ibb.co/R6Ythc6)
+![probando](https://i.ibb.co/GMnGsRM/Captura-de-pantalla-2019-02-04-a-la-s-22-43-55.png)
 
 ../src/assets/blol.jpg
 .. image:: https://ibb.co/R6Ythc6
