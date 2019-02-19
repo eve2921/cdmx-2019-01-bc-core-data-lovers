@@ -1,5 +1,7 @@
 # Data Lovers
 ![probando](https://drive.google.com/open?id=1MJMctd8qlg84qrp4RKLLSjr8uGkSENFc)
+![probando](cdmx-2019-01-bc-core-data-lovers/src/assets/Logo/LOLpng.png)
+
 ## Índice
 
 - [Preámbulo](#preámbulo)
