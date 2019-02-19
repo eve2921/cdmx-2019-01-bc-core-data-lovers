@@ -322,6 +322,7 @@ footer >ul > a > i{
 
    #championCard {
     width: 40%;
+    font-size: 2vh;
    }
 
    .titleBySection{
