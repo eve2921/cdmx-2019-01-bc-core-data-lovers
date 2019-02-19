@@ -62,31 +62,39 @@ const printCharacterSheet = (datosArr) => {
   titleBySection.style.display = "block";
   datosArr.forEach(champ => {
     let championCard = `<section id=championInfoCard class="totalDescription">
-    <div id="${champ.id}"//**********//>
+    <div class="infoChamp">
+    <div>
+    
     <img class="imagenInfo" src="${champ.splash}">
     <h2 id= "nombre" >${champ.name}</h2> 
     <h1 id="titulo">${champ.title}</h1>
     <p>${champ.blurb}</p>
+    </div>
+    </div>
     
-    <div id="info"<p>Attack:${champ.attack}</p> //******************//
+    <div class="infoChamp">
+    <div id="info"<p>Attack:${champ.attack}</p>
     <p>Defense:${champ.defense}</p>
     <p>Magic:${champ.magic}</p>
     <p>Difficulty:${champ.difficulty}</p>
     </div>
-    
-    <div id="statsInfo" <h2>Stats</h2> //************//
-    <div class="hpInfo"> +++++++++++
+    </div>
+    <br>
+    <div class="infoChamp">
+    <div id="statsInfo">
+    <h2>Stats</h2>
+    <div class="infoChamp">
     <p>Hp:${champ.hp}</p>
     <p>Hp per level:${champ.hpperlevel}</p>
     </div>
-    <div class="mpInfo">  ++++++++++
+    <div class="infoChamp">
     <p>Mp:${champ.mp}</p>
     <p>Mp per level:${champ.mpperlevel}</p>
     </div>
-    <div class="moveSpeedInfo"> ++++++++++
+    <div class="infoChamp">
     <p>Movespeed:${champ.movespeed}</p>
     </div>
-    <div class="armorInfo"> +++++++++++++
+    <div class="infoChamp">
     <p>Armor:${champ.armor}</p>
     </div>
     </div></section>`;
