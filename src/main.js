@@ -183,7 +183,7 @@ stats.addEventListener('click', () =>{
   imprimirRoles.innerHTML = "";
   titleBySection.innerHTML = "Stats Average";
   const averageAttackP = window.lol.averageAttack(datosArr);
-  imprimirRoles.innerHTML = `<div class="containerInfo"> Attack: <br> ${averageAttackP}</div>`;
+  imprimirRoles.innerHTML = `<div class="containerStats"> Average attack: <br> ${averageAttackP}</div>`;
   document.getElementById("objetive").style.display = "none";
   titleBySection.style.display = "block"
 })
