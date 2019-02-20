@@ -61,10 +61,10 @@ const printCharacterSheet = (datosArr) => {
   document.getElementById("objetive").style.display = "none";
   titleBySection.style.display = "block";
   datosArr.forEach(champ => {
-    let championCard = `<section id=championInfoCard class="totalDescription">
-    <figure>
+    let championCard = `<figure>
     <img src="http://leseriail.com/cdn/1/2010/48/blank-trading-card-game-template_255787.png" >
     </figure>
+    <section id=championInfoCard class="totalDescription">
     <div id="${champ.id}"//**********//>
     <img class="imagenInfo" src="${champ.splash}">
     <h2 id= "nombre" >${champ.name}</h2> 
