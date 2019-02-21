@@ -19,11 +19,8 @@ const difficultyAsc = document.getElementById("difficultyAsc");
 const difficultyDsc = document.getElementById("difficultyDsc");
 //Obtiene el id del div en donde se va a imprimir la tarjeta de los campeones
 const containerInfo = document.getElementsByClassName("containerInfo");
-<<<<<<< HEAD
-=======
 const stats = document.getElementById("stats");
 
->>>>>>> 6b6c91b0a7e680b3688181dc2ba1e43ae52907d8
 
 //-----FUNCIONES PARA DESPLEGAR LA INFORMACIÓN DE LOS CAMPEONES
 
