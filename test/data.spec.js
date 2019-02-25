@@ -220,18 +220,3 @@ describe('Reduce, devuelve el promedio del arreglo de attack de los campeones', 
 });
 
 
-<<<<<<< HEAD
-describe('Ordenar, devuelve un arreglo de champions ordenado por dificultad de manera descendente',() => {
-  it('SortByDificultyDsc es una funcion', () =>{
-    expect(typeof window.lol.sortByDifficultyDsc).toBe('function');
-  });
-  it('Dado la muestra, si ordena de manera descendente, Ahri es el primer elemento', () =>{
-    expect(window.lol.sortByDifficultyDsc(dataToArray)[0].name).toBe('Ahri');
-  });
-  it('Dado la muestra, si ordena de manera descendente, Aatrox es el segundo elemento', () =>{
-    expect(window.lol.sortByDifficultyDsc(dataToArray)[1].name).toBe('Aatrox');
-  });
-});
-=======
-
->>>>>>> 6b6c91b0a7e680b3688181dc2ba1e43ae52907d8
